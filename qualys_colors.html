@@ -1,0 +1,66 @@
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<br>
+	<br>
+	<br>
+	<body>
+		Enter Hex or RBG color: <input id="colorI" type='text'><button id='submit'>Submit</button>
+	<br>
+	<br>
+	<br>
+	<div style="background: #FFFFFF">#FFFFFF q-empty-background</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #F5F5F5">#F5F5F5 q-white-b50</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #039AE5">#039AE5 q-blue-a100</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #0B589A">#0B589A q-blue-a50</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #1278C1">#1278C1 q-blue-b50</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #28B6F5">#28B6F5 b-blue-c1</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #34C4F2">#34C4F2 q-blue-c2</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #B3E5FC">#B3E5FC q-blue-c3</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #E1F5FE">#E1F5FE q-blue-c4</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #37474E">#37474E q-black-a100</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #607D8D">#607D8D q-gray-a50</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #B0BFC6">#B0BFC6 q-gray-c1</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #CFD6DC">#CFD6DC q-gray-c2</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #DDE4E7">#DDE4E7 q-gray-c3</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #ECEFF1">#ECEFF1 q-gray-c4</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #60BC57">#60BC57 a-green-a100</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #0F8B24">#0F8B24 a-green-c1</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #C5E1A5">#C5E1A5 a-green-c2</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #DE1D0B">#DE1D0B a-red-a100</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #D36359">#D36359 a-red-c1</div>
+	<div class="target" style="background:#ffffff"></div>
+	<div style="background: #FFC637">#FFC637 q-yellow-a100</div>
+	<br>
+	<br>
+	<br>
+	<script>
+		$(document).ready(function(){
+			$('#submit').on("click", function(){
+				var color = $('#colorI').val();
+				console.log(color)
+				$(".target").html(color)
+				$(".target").css("background", color)
+			})
+		})
+	</script>
+	</body>
+</html>
