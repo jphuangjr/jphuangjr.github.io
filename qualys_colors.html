@@ -78,7 +78,8 @@
 				var rgb = $(this).css("background-color")
 				var hex = rgb2hex(rgb);
 				document.getElementById("colorI").value = hex;
-				
+				document.getElementById("colorI").select();
+				document.execCommand('copy');
 			})
 		})
 	</script>
