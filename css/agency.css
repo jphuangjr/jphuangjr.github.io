@@ -179,6 +179,11 @@ fieldset[disabled] .btn-xl.active {
     color: silver;
 }
 
+.resume:hover,
+.page-scroll:hover {
+    color: red !important;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
