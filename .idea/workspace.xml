@@ -72,11 +72,11 @@
       <file leaf-file-name="crypto.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crypto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62347186" vertical-offset="210" max-vertical-offset="915">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.62347186" vertical-offset="90" max-vertical-offset="930">
+              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
               <folding>
-                <marker date="1508053184000" expanded="true" signature="1380:1390" placeholder="..." />
-                <marker date="1508053184000" expanded="true" signature="1680:1690" placeholder="..." />
+                <marker date="1508053377000" expanded="true" signature="1416:1426" placeholder="..." />
+                <marker date="1508053377000" expanded="true" signature="1716:1726" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -638,11 +638,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crypto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62347186" vertical-offset="210" max-vertical-offset="915">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.62347186" vertical-offset="90" max-vertical-offset="930">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
           <folding>
-            <marker date="1508053184000" expanded="true" signature="1380:1390" placeholder="..." />
-            <marker date="1508053184000" expanded="true" signature="1680:1690" placeholder="..." />
+            <marker date="1508053377000" expanded="true" signature="1416:1426" placeholder="..." />
+            <marker date="1508053377000" expanded="true" signature="1716:1726" placeholder="..." />
           </folding>
         </state>
       </provider>
