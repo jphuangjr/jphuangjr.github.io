@@ -23,9 +23,15 @@
 		<hr>
 		<div class ="size1">Desired ETH/Coin Ratio:</div> <span class ="size1" id="desiredRatio"></span>
 		<hr>
+		<div class ="size1">Coin Cost:</div> <span class ="size1" id="coinCost"></span>
+		<hr>
 		<span class ="size2">ETH Cost:<br> <input id="eth" type='text'></span><br>
 		<span class ="size2">Coin Cost:<br> <input id="coin" type='text'></span><br>
 		<button id='submit'>ETH/COIN Ratio</button><br>
+		<br>
+
+		<span class ="size2">Coin Ratio:<br> <input id="coinRatio" type='text'></span><br>
+		<button id='submit3'>Coin Cost</button><br>
 		<br>
 		<span class ="size2">Coin Quanity:<br> <input id="quantity" type='text'></span><br>
 		<span class ="size2">Desired Amount:<br> <input id="desired" type='text'></span><br>
@@ -49,6 +55,12 @@
 				var desired = $('#desired').val();
 				alert("Desired ETH/COIN Ratio: "+(desired/quantity)/eth);
 				$("#desiredRatio").html('<span style="color:red;">'+(desired/quantity)/eth+'</span>');
+			});
+			$('#submit3').on("click", function(){
+				var eth = $('#eth').val();
+				var ratio = $('#coinRatio').val();
+				alert("Coin Cost: "+(eth*ratio));
+				$("#coinCost").html('<span style="color:red;">'+eth*ratio+'</span>');
 			});
 		})
 	</script>

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c1daf0b-cccc-4aae-a49c-cfc2fdca069c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto.html" afterPath="$PROJECT_DIR$/crypto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +71,12 @@
       <file leaf-file-name="crypto.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crypto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62347186" vertical-offset="90" max-vertical-offset="930">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state vertical-scroll-proportion="1.183374" vertical-offset="446" max-vertical-offset="1110">
+              <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
               <folding>
-                <marker date="1508053377000" expanded="true" signature="1416:1426" placeholder="..." />
-                <marker date="1508053377000" expanded="true" signature="1716:1726" placeholder="..." />
+                <marker date="1508053711000" expanded="true" signature="1644:1654" placeholder="..." />
+                <marker date="1508053711000" expanded="true" signature="1944:1954" placeholder="..." />
+                <marker date="1508053711000" expanded="true" signature="2187:2197" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -638,11 +638,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crypto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62347186" vertical-offset="90" max-vertical-offset="930">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        <state vertical-scroll-proportion="1.183374" vertical-offset="446" max-vertical-offset="1110">
+          <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
-            <marker date="1508053377000" expanded="true" signature="1416:1426" placeholder="..." />
-            <marker date="1508053377000" expanded="true" signature="1716:1726" placeholder="..." />
+            <marker date="1508053711000" expanded="true" signature="1644:1654" placeholder="..." />
+            <marker date="1508053711000" expanded="true" signature="1944:1954" placeholder="..." />
+            <marker date="1508053711000" expanded="true" signature="2187:2197" placeholder="..." />
           </folding>
         </state>
       </provider>
