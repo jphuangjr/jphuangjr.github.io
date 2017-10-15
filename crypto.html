@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Simple Crypto Calculator</title>
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<body>
+		<div>ETH/Coin Ratio: <span id="ethratio"></span></div>
+		<div>Desired ETH/Coin Ratio: <span id="desiredRatio"></span></div>
+		<hr>
+		ETH Cost: <input id="eth" type='text'><br>
+		Coin Cost: <input id="coin" type='text'><br>
+		<br><br>
+		Coin Quanity: <input id="quantity" type='text'><br>
+		Desired Amount: <input id="desired" type='text'><br>
+		<hr>
+		<button id='submit'>ETH/COIN Ratio</button><br>
+		<button id='submit2'>Target ETH/COIN Ratio</button><br>
+
+	<script>
+		$(document).ready(function(){
+			$.get("https://api.etherscan.io/api?module=stats&action=ethprice&apikey=DS6AMZBMKGMV3VXT321CVN1UST46Z11XGC",function(data) {
+				document.getElementById("eth").value = data.result.ethusd;
+			});
+			$('#submit').on("click", function(){
+				var eth = $('#eth').val();
+				var coin = $('#coin').val();
+				$("#ethratio").html('<span style="color:red;">'+(coin/eth)+'</span>');
+			});
+			$('#submit2').on("click", function(){
+				var eth = $('#eth').val();
+				var quantity = $('#quantity').val();
+				var desired = $('#desired').val();
+				$("#desiredRatio").html('<span style="color:red;">'+(desired/quantity)/eth+'</span>');
+			});
+		})
+	</script>
+	</body>
+</html>
