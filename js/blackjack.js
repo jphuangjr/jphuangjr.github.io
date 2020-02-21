@@ -389,6 +389,8 @@ var dealer = {
 //Invokes the start of the game. Creates players. Creates a new deck.
 var game = function(){
     console.log("Window: ", window)
+    console.log("window.q2", window.q2);
+    console.log("window.parent.q2", window.parent.q2)
 
 
 
