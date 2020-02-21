@@ -414,6 +414,7 @@ var game = function(){
 
         /////able_switch test
         unit_test(able_switch, [true], "able_switch", 1)
+        console.log("Window: ", window)
 
     }
 };
